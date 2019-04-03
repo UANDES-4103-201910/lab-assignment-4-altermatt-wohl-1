@@ -7,13 +7,13 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 users = [User.new(name:'Claudio', lastname:'Alvarez', \
               password:'123456', email:'calvarez1@miuandes.cl', \
-              address:'San Carlos de Apoquindo',number: 987654321), 
+              address:'San Carlos de Apoquindo', number: 987654321), 
          User.new(name:'Juan', lastname:'Rataplan', \
               password:'123456', email:'jrataplan@miuandes.cl', \
               address:'San Carlos de Apoquindo', number: 945627843),
          User.new(name:'Raul', lastname:'Rabufetti', \
               password:'123456', email:'rrabufetti@miuandes.cl', \
-              address:'San Carlos de Apoquindo',number: 964215731),
+              address:'San Carlos de Apoquindo', number: 964215731),
          User.new(name:'Raul', lastname:'Ganfolfi', \
               password:'123456', email:'rgandolfi@miuandes.cl', \
               address:'San Carlos de Apoquindo', number: 982431567),
