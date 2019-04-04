@@ -34,9 +34,9 @@ for ev in event_venues do
 end 
 
 events = [Event.new(name:'Festival de la Cancion', description: 'Puro reggaeton',\
-          start_date: '2019-03-01', event_venue: event_venues[0]),
+          start_date: '2019-06-01', event_venue: event_venues[0]),
           Event.new(name:'Twisted Sister', description: 'Puro rock',\
-          start_date: '2019-04-01', event_venue: event_venues[1]),
+          start_date: '2019-05-20', event_venue: event_venues[1]),
           Event.new(name:'Bad Bunny', description: 'Puro Trap',\
           start_date: '2019-05-01', event_venue: event_venues[2])]
 
