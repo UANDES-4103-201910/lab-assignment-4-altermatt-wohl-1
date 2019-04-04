@@ -25,9 +25,9 @@ for u in users do
   u.save!
 end 
 
-event_venues = [EventVenue.new(name: 'Estadio Nacional', address:'Maraton', capacity: 60000),\
-                EventVenue.new(name: 'Estadio Monumental', address:'Exequiel', capacity: 25000),\
-                EventVenue.new(name: 'Movistar Arena', address:'Matta', capacity: 15000)]
+event_venues = [EventVenue.new(name: 'Estadio Nacional Julio Martinez', address:'Maraton', capacity: 60000),\
+                EventVenue.new(name: 'Estadio Monumental de Colo Colo', address:'Exequiel', capacity: 25000),\
+                EventVenue.new(name: 'Movistar Arena de Santiago de Chile', address:'Matta', capacity: 15000)]
                 
 for ev in event_venues do
   ev.save!
