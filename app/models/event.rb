@@ -6,7 +6,7 @@ class Event < ApplicationRecord
   def start_date_cant_be_before_created_at
     created_at = DateTime.now  
     if start_date < created_at
-      errors.add(:start_date,"can't be before")
+      errors.messages(:start_date,"can't be before :created_at")
     end
   end
 end
