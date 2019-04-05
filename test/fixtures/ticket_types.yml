@@ -5,7 +5,4 @@ one:
   price: 1
   ticket_zone: one
 
-two:
-  event: two
-  price: 1
-  ticket_zone: two
+

@@ -4,6 +4,4 @@ one:
   ticket_type: one
   order: one
 
-two:
-  ticket_type: two
-  order: two
+

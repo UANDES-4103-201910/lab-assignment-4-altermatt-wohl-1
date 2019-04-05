@@ -5,7 +5,3 @@ one:
   address: MyString
   capacity: 1
 
-two:
-  name: MyString
-  address: MyString
-  capacity: 1
